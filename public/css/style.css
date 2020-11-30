@@ -1,0 +1,359 @@
+/***** GLOBALS SETTINGS *****/
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+    width: 70%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+a {
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #96a702;
+}
+
+/***** HEADER *****/
+
+.headerTopBackground {
+    background-color: #222222;
+}
+
+.headerTop {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logoDofusHome {
+    width: 70%;
+    padding: 0 0.5em;
+}
+
+#logoUserConnexion {
+    width: 30%;
+}
+
+.headerTopUser {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.headerTopUser a {
+    width: 50%;
+    color: #f6f6f6;
+    font-weight: 600;
+    font-size: 0.8em;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav {
+    border-top: 3px solid #96a702;
+    background-color: #222222;
+}
+
+.headerBot {
+    height: 20%;
+    justify-content: space-between;
+}
+
+#logoDofusNav {
+    width: 12%;
+    margin-top: -2.5%;
+}
+
+nav a {
+    color: #f6f6f6;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 0.5em;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #96a702;
+}
+
+.headerBotLeft {
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.headerBotLeft a:first-child {
+    border-right: 1px solid #626262;
+}
+
+.headerBotRight {
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.headerBotRight a:first-child {
+    border-right: 1px solid #626262;
+}
+
+/***** MAIN *****/
+
+/** GLOBALS SETTINGS MAIN ACCUEIL **/
+
+.backgroundAccueil {
+    height: auto;
+    background: url(../img/BackgroundDofusAcceuil.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #302217;
+}
+
+.page {
+    padding-top: 7%;
+    width: 44%;
+    margin: auto;
+}
+
+.whiteTrans {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.contentWhiteTrans {
+    width: 95%;
+    margin: auto;
+    padding: 2% 0;
+}
+
+.lineSeparator {
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: auto;
+    background-color: #222222;
+}
+
+.pMessage {
+    margin-top: 16px;
+}
+
+/** MAIN LOGIN / REGISTER **/
+
+.backgroundRegister {
+    height: 110vh;
+    background: url(../img/BackgroundDofusInscription.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.backgroundLogin {
+    height: 110vh;
+    background: url(../img/backgroundDofusConnexion.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.pageLogin {
+    padding-top: 15%;
+    width: 35%;
+    margin-left: 15%;
+}
+
+.whiteTransLogin {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.titlePageLogin {
+    width: 100%;
+    background-color: #96a702;
+}
+
+.h2PageLogin {
+    color: #f6f6f6;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 0 2px 2px #888;
+    margin: 0;
+    padding-left: 2%;
+}
+
+.formLogin {
+    background-color: #f6f6f6;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.formLogin input {
+    width: 60%;
+}
+
+.formLogin button {
+    width: 40%;
+    background-color: #96a702;
+    border: none;
+}
+
+.formLogin p {
+    margin-top: 10%;
+    color: #222222;
+}
+
+.formLogin a {
+    color: #222222;
+}
+
+.formLogin a:hover {
+    color: blue;
+}
+
+/* CATEGORIES */
+
+.sUpCategories {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.titlePage {
+    width: 68%;
+    background-color: #96a702;
+    border-radius: .25rem;
+    flex-direction: column;
+}
+
+.formSearchTopic {
+    position: relative;
+    width: 30%;
+}
+
+.searchInput {
+    width: 100%;
+    height: 2.5em;
+}
+
+.logoSearch {
+    position: absolute;
+    z-index: 10;
+    top: 2px;
+    right: 2px;
+    /* width: 2em;
+    height: 2em; */
+    border: none;
+    background-color: #ffffff;
+}
+
+.logoSearch img {
+    width: 2em;
+}
+
+.h2Page {
+    color: #f6f6f6;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 0 2px 2px #888;
+    margin: 0;
+    padding-left: 2%;
+}
+
+.underTitle {
+    justify-content: space-between;
+    align-items: center;
+    width: 68%;
+    padding: 1% 2%;
+    background-color: #d8e261;
+    margin-top: 2%;
+}
+
+.underTitle h4 {
+    color: #422f14;
+    font-size: 1em;
+    font-weight: 600;
+    margin-right: 2em;
+}
+
+.backgroundDefault {
+    background-color: #f6f6f6;
+    width: 68%;
+}
+
+.backgroundDefault a {
+    color: #97A800;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.backgroundDefault p {
+    font-size: 0.8em;
+    margin: 0;
+    margin-left: 2%;
+}
+
+.textTopic {
+    background-color: #f6f6f6;
+    width: 68%;
+    height: auto;
+    padding: 2em 4em;
+    margin-bottom: 1em;
+}
+
+.contentMessage {
+    background-color: #f6f6f6;
+    width: 68%;
+    border-bottom: 1px solid #222222;
+    margin-bottom: 1em;
+}
+
+.contentMessage p {
+    margin: 5px;
+    padding-left: 1em;
+}
+
+.contentMessage h5 {
+    margin: 0;
+    padding-left: 2em;
+}
+
+.contentTopic {
+    border-bottom: 1px solid #626262;
+}
+
+.contentTitreTopicWidth {
+    width: 50%;
+}
+
+.btnDeleteListTopic {
+    margin: 0.5em;
+    font-size: 0.7em;
+}
+
+/***** FOOTER *****/
+
+.sFooter {
+    height: 20vh;
+    background-color: #222222;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sFooter img {
+    width: 5%;
+}
+
+.sFooter small {
+    color: #f6f6f6;
+}
+
+.sFooter a:hover {
+    color: #96a702;
+}
